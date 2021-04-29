@@ -66,8 +66,7 @@ class IGI(object):
 			if not self.compute[idx]:
 				self.gini_index[idx] = -1000.0
 
-
-		
+		#One vs rest approach
 		for actual_positive_class in tqdm(self.classes,desc="Computing Gini: "):
 			for idx in tqdm(self.features_idxs, "Feature: "):
 				if self.compute[idx]:
