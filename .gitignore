@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+classificador_svm
+env
+classifiers
+svm_wrapper.py
